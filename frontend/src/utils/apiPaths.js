@@ -1,4 +1,4 @@
-export const BASE_URL = "https://budget-buddy-3bck.onrender.com";
+export const BASE_URL = "https://budget-buddy-iem7.onrender.com";
 
 // utils/apiPaths.js
 export const API_PATHS = {

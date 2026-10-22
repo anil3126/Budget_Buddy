@@ -12,7 +12,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
 
-  const { updateUser } = useContext(UserContext);
+  const { updateUser } = useContext(UserContext); 
 
   const navigate = useNavigate();
 
@@ -55,7 +55,7 @@ const Login = () => {
       }
     }
   };
-  return (
+  return ( 
     <AuthLayout>
       <div className="lg:w-[70%] h-3/4 md:h-full flex flex-col justify-center">
         <h3 className="text-xl font-semibold text-black">Welcome back</h3>
